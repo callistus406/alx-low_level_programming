@@ -1,13 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - Entry point
+ * Return:0
  */
-int main()
+
+int main(void)
 {
-    
-    printf("_putchar");
-    return 0;
+char c[10] = "_putchar";
+int i = 0;
+while (i < 9)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
