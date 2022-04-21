@@ -2,9 +2,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_array - print elements of an array
  *
- * Return: Always 0.
+ * @a: The array
+ * @n: The number of elements in the array
+ *
+ * Return: void
  */
 
 void  print_array(int *a, int n)
