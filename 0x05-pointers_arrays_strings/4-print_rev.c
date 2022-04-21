@@ -1,10 +1,13 @@
 #include "main.h" 
 
-/** 
- * main - check the code 
- * 
- * Return: Always 0. 
- */ 
+/**
+ * print_rev - reverse string
+ *
+ * @s: String to be reversed
+ *
+ * Return: void
+ */
+
 
 void print_rev(char *s)
 {
