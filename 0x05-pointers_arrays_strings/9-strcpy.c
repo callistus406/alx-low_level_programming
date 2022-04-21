@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _strcpy - Copy strings from source arr to destination arr
  *
- * Return: Always 0.
+ * @dest: destination array
+ * @src: source array
+ *
+ * Return: Pointer to destination array
  */
 
 char *_strcpy(char *dest, char *src)
