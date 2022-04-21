@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * puts_half - print half a strong
  *
- * Return: Always 0.
+ * @str: input string
+ *
+ * Return: void
+ *
  */
 
 void puts_half(char *str)
