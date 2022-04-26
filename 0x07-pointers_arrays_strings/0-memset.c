@@ -2,12 +2,18 @@
 #include <stdio.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * _memset - fills the first @n bytes of the memory area pointed
+ * to by @s with the constant byte of @b
  *
- * Return: Nothing.
+ * @s: Pointer to a memory area
+ *
+ * @b: Value that is to fill up memory area @s
+ *
+ * @n: number of bytes of memory area @s to be filled with @b
+ *
+ * Return: Pointer to the memory area @s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
