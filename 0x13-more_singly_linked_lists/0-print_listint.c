@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
-
+#include <stdlib.h>
+#include <string.h>
 /**
  * print_list - prints to standard output
  * @h: A node in list_t
