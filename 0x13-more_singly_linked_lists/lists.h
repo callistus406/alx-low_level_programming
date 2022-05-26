@@ -12,7 +12,7 @@
  * Description: singly linked list node 
  */
 
-typedef struct list_s
+typedef struct listint_s
 {
 	char *str;
 	unsigned int len;
