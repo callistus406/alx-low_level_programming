@@ -5,17 +5,16 @@
 
 /**
  * struct list_s - singly linked list
- * @str: string 
- * @len: length of the string
+ * @str: integer 
+ * @len: length of the integer
  * @next: points to the next node
  *
- * Description: singly linked list node 
+ * Description: singly linked list node structure
  */
 
 typedef struct listint_s
 {
-	char *str;
-	unsigned int len;
+	int *n;
 	struct listint_s *next;
 } listint_t;
 
