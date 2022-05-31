@@ -3,7 +3,7 @@
  * print_binary - decimal to binary without use / %
  * @n: the decimal
  * Description: convert decimal to binary
- * section header: the header of this function 
+ * section header: the header is main.h 
  * Return: no return
  */
 void print_binary(unsigned long int n)
